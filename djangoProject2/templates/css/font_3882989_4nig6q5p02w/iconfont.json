@@ -1,0 +1,44 @@
+{
+  "id": "3882989",
+  "name": "xxxxxxxxxxxx",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10912996",
+      "name": "UIicon_未读",
+      "font_class": "UIicon_weidu",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "2076358",
+      "name": "返回箭头",
+      "font_class": "fanhuijiantou",
+      "unicode": "e8b5",
+      "unicode_decimal": 59573
+    },
+    {
+      "icon_id": "33906920",
+      "name": "个人中心-我的-01",
+      "font_class": "gerenzhongxin-wode-01",
+      "unicode": "ea23",
+      "unicode_decimal": 59939
+    },
+    {
+      "icon_id": "33906944",
+      "name": "日程事件-02",
+      "font_class": "richengshijian-02",
+      "unicode": "ea26",
+      "unicode_decimal": 59942
+    },
+    {
+      "icon_id": "33940365",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

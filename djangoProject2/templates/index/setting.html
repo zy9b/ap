@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>嘉琴工单</title>
+    <style>
+        .bg{
+            background-color: lightblue;
+        }
+        .nav{
+            display:-ms-flexbox;
+            display:flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+        }
+        .nav-link{
+            display:block;
+            padding: .5rem 1rem;
+        }
+        a{
+            color:#007bff;
+            font-size:18px;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        *,::after,::before{
+            box-sizing: border-box;
+        }
+        a:-webkit-any-link{
+            color:-webkit-link;
+            cursor:pointer;
+            text-decoration: underline;
+        }
+        ul{
+            list-style-type:disc;
+        }
+        .dark-text{
+            color:black!important;
+        }
+    </style>
+</head>
+<body>
+
+    <ul class="nav bg">
+        {% if username != 'a' %}
+            <a class="nav-link dark-text">{{ username }} 同事</a>
+        {% endif %}
+        <a class="nav-link dark-text">设置</a>
+    </ul>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="确定">
+    </form>
+</body>
+</html>
